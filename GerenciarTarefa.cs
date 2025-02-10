@@ -4,7 +4,7 @@ namespace GERENCIADOR
 {
     class Formatacao
     {
-            static void Main()
+        static void Main()
         {
             while (true)
             {
@@ -18,6 +18,55 @@ namespace GERENCIADOR
                 Console.WriteLine("0 - Sair");
                 Console.Write("Escolha uma opção: ");
                 string opcao = Console.ReadLine();
+
+                switch (opcao)
+                {
+                    case "1":
+                        Console.Write("Digite o criar: ");
+                        int tamanho = int.Parse(Console.ReadLine());
+
+                        Console.Write("Digite: ");
+                        string tipo = Console.ReadLine().ToLower();
+
+                        string criar = Geranciador(tamanho, tipo);
+                        Console.WriteLine($": {adicionar}");
+                        break;
+                    case "2":
+                        Console.Write("Listar Tarefa");
+                        int tamanho = int.Parse(Console.ReadLine());
+                        break
+                    case "3":
+                        int tamanho = int.Parse(Console.ReadLine());
+
+                        Console.Write("Digite: ");
+                        string tipo = Console.ReadLine().ToLower();
+
+                        string senha = Geranciador(tamanho, tipo);
+                        Console.WriteLine($": {adicionar}");
+                        break;
+                    case "4":
+                        int tamanho = int.Parse(Console.ReadLine());
+
+                        Console.Write("Digite: ");
+                        string tipo = Console.ReadLine().ToLower();
+
+                        string senha = Geranciador(tamanho, tipo);
+                        Console.WriteLine($": {adicionar}");
+                        break;
+                    case "0":
+                        int tamanho = int.Parse(Console.ReadLine());
+
+                        Console.Write("Digite: ");
+                        string tipo = Console.ReadLine().ToLower();
+
+                        string senha = Geranciador(tamanho, tipo);
+                        Console.WriteLine($": {adicionar}");
+                        break;
+                    default:
+
+
+
+                }
 
                 if (opcao == "1")
                 {
@@ -35,7 +84,7 @@ namespace GERENCIADOR
                     Console.Write("Listar Tarefas: ");
                     string salvar = Console.ReadLine().ToLower();
 
-                    if (salvar == "s")
+                    if (opcao == "")
                     {
                         Console.WriteLine("Tarefa pelo sucesso!");
                     }
@@ -46,7 +95,7 @@ namespace GERENCIADOR
                 }
                 else if (opcao == "3")
                 {
-                    RecuperarBackup();
+                    ;
                 }
                 else if (opcao == "4")
                 {
