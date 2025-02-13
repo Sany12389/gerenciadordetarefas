@@ -1,0 +1,5 @@
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.AssemblyInfoInputs.cache
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.AssemblyInfo.cs
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.csproj.CoreCompileInputs.cache
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.sourcelink.json

@@ -1,5 +1,3 @@
-using System.Reflection.PortableExecutable;
-
 namespace Layout
 {
     class Formatacao
@@ -11,11 +9,19 @@ namespace Layout
             Console.ResetColor();
         }
 
-        public static void ReadLine(string texto, ConsoleColor cor)
+        public static string ImprimirMenu()
         {
-            Console.ForegroundColor = cor;
-            Console.WriteLine(texto);
-            Console.ResetColor();
+            Console.WriteLine("\n=======================");
+            Console.WriteLine("GERENCIADOR DE TAFERAS");
+            Console.WriteLine("=======================");
+            Console.WriteLine("1 - Adicionar Tarefa");
+            Console.WriteLine("2 - Listar Tarefas");
+            Console.WriteLine("3 - Concluir Tarefa");
+            Console.WriteLine("4 - Remover Tarefa");
+            Console.WriteLine("0 - Sair");
+            Console.Write("Escolha uma opção: ");
+            string opcao = Console.ReadLine();
+            return opcao;
         }
     }
 }
