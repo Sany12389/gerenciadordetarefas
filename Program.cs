@@ -1,7 +1,27 @@
-﻿using Layout;
+﻿using GerenciarTarefa;
+using Layout;
+using Taferas;
+
+var Gerenciador = new Gerenciador();
+string opcao;
+opcao = Formatacao.ImprimirMenu();
 
 
-Formatacao.ImprimirMenu();
+switch (opcao)
+{
+    case "1":
+        Console.WriteLine("Informar a descrição da tarefa: ");
+        string descricao = Console.ReadLine();
+        Gerenciador.AdicionarTarefa(descricao);
+        break;
+    case "2":
+    
+    break;
+    default:
+        break;
+}
+
+
 
 // switch (opcao)
 // {

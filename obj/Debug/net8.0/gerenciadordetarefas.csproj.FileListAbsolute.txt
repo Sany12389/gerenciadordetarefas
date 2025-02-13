@@ -3,3 +3,13 @@ c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciad
 c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.AssemblyInfo.cs
 c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.csproj.CoreCompileInputs.cache
 c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.sourcelink.json
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\bin\Debug\net8.0\gerenciadordetarefas.exe
+C:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\bin\Debug\net8.0\gerenciadordetarefas.deps.json
+C:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\bin\Debug\net8.0\gerenciadordetarefas.runtimeconfig.json
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\bin\Debug\net8.0\gerenciadordetarefas.dll
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\bin\Debug\net8.0\gerenciadordetarefas.pdb
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.dll
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\refint\gerenciadordetarefas.dll
+c:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.pdb
+C:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\gerenciadordetarefas.genruntimeconfig.cache
+C:\Users\Aluno\Documents\Sandyla\gerenciadordetarefas\obj\Debug\net8.0\ref\gerenciadordetarefas.dll
