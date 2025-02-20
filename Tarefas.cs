@@ -1,10 +1,14 @@
 
-namespace Taferas
+using System;
+using Layout;
+namespace Tarefas
 {
-    class Tarefa
+    public class Tarefa
     {
         public int Id { get; set; }
+
         public string Descricao { get; set; }
+
         public bool Concluida { get; set; }
 
         public Tarefa(int id, string descricao)
@@ -13,10 +17,9 @@ namespace Taferas
             Descricao = descricao;
             Concluida = false;
         }
-
         public void ExibirTarefa()
         {
-            Console.WriteLine($"[{(Concluida ? "X" : " ")}] ID: {Id} - {Descricao}");
+           Console.WriteLine($"[{(Concluida ? "X" : " ")}] ID: {Id} - {Descricao}");
         }
     }
 }
